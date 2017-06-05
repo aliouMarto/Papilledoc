@@ -1,0 +1,252 @@
+@font-face {
+    font-family: 'bloodynormal';
+    src: url('font/BLOODY-webfont.eot');
+    src: url('font/BLOODY-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/BLOODY-webfont.woff') format('woff'),
+         url('font/BLOODY-webfont.ttf') format('truetype'),
+         url('font/BLOODY-webfont.svg#bloodynormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  background-color: #FFF;
+  margin: 0;
+  padding: 0;
+}
+
+
+html,body {
+  padding:0;
+  margin:0;
+  height:100%;
+}
+
+/*----- Nav, header
+-------------------------------------------------------------*/
+
+.navigation {
+  background-color: rgba(255, 255, 255, 0.93);
+  position: fixed;
+  left: 0;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  height: 15%;
+  z-index: 10000;
+}
+
+ul {
+  padding: 0;
+  margin-right: 50px;
+}
+
+li {
+  color: black;
+  display: inline-block;
+  font-family: 'Abel', sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  margin: 16px 20px;
+  text-align: center;
+
+}
+.navigation ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.js-scrollTo {
+  color: inherit;
+}
+
+#shop {
+  color: red;
+}
+
+#logo {
+  color: darkred;
+  font-family: 'bloodynormal', arial, sans-serif;
+  font-size: 38px;
+  padding: 0px 30px;
+}
+
+video#bgvid {
+  position: fixed; right: 0; top: 0;
+  min-width: 100%; min-height: 100%;
+  z-index: -100;
+  background-size: cover;
+
+}
+
+/*-------- cover
+-----------------------------------------------------------*/
+
+#cover {
+  background-size: 60%;
+  background-attachment: fixed;
+  height: 550px;
+  position: relative;
+  top: -5px;
+  width: 100%;
+  margin: 0;
+}
+
+
+
+.cover-content {
+  box-sizing: border-box;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  top: 200px;
+  width: 70%;
+
+}
+
+.cover-content img {
+  width: 50%;
+}
+
+.cover-content .btn {
+  position: relative;
+  top: 50px;
+}
+
+/*------ h1, h2, h3, h4, p
+----------------------------------------------------------*/
+
+
+h1 {
+  color: #FFFAF0;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+  font-size: 82px;
+  line-height: 60px;
+  letter-spacing: 2px;
+  padding: 0px 10px;
+  text-align: center;
+
+}
+
+h2 {
+  color: #FFFFF0;
+  font-family: 'Amatic SC', cursive;
+  text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+  font-size: 52px; 
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+ .bloody {
+  font-family: 'bloodynormal', arial, sans-serif;
+  font-size: 44px;
+  color: darkred;
+  text-shadow: #fff 1px 1px, #fff -1px 1px, #fff -1px -1px, #fff 1px -1px;
+}
+
+h3 {
+  color: #14213D;
+  font-family: 'Abel', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
+h4 {
+  color: darkred;
+  font-family: 'Abel', sans-serif;
+  font-size: 24px;
+  margin: 0px 0px 50px 0px;
+}
+
+p {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*------
+-------------------------------------------------*/
+/*.btn {
+  background-color: #14213D;
+  background-image: -webkit-linear-gradient(red,black);
+  color: #FFF;
+  font-family: 'Amatic SC', cursive;
+  font-size: 26px;
+  padding: 14px;
+  border-radius: 30px;
+}*/
+
+.btn1 img {
+  width: 60px;
+  padding: 14px;
+}
+
+.btn2 img {
+  width: 30px;
+}
+
+.products {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 0;
+  padding: 20px 0px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+#page1 {
+  margin-top: 80px;
+}
+
+.product {
+  display: inline-block;
+  margin: 0px 2% 80px 2%;
+  text-align: center;
+  width: 45%;
+}
+
+.picto img {
+  width:70%;
+}
+
+.picto img:hover {
+  opacity: 0.5;
+}
+
+/*----- 
+-----------------------------------------------------*/
+
+.slideshow {
+    width: 1500px;
+    height: 300px;
+    overflow: hidden;
+    margin-top: -30px;
+}
+
+.slideshow img {
+    width: 1500px;
+    height: 300px;
+}
+.slideshow ul {
+    /* 4 images donc 4 x 100% */
+    width: 400%;
+    height: 300px;
+    padding: 0;
+    list-style: none;
+}
+
+.slideshow li {
+    float: left;
+    margin-left: 0px;
+}
+
+Fin de la discussion
