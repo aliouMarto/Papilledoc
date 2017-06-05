@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>À vos risques et papilles</title>
+  <link href="https://fonts.googleapis.com/css?family=Abel|Amatic+SC|Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/tat2.css">
+  
+</head>
+
+<body>
+
+  <div class="navigation">
+     <ul>
+      <li><a class="js-scrollTo" href="#degustation">À déguster</a></li>
+      <li><a class="js-scrollTo" href="#alcool">Les Alcools de vie</a></li>
+      <li id="logo">A vos risques et papilles</li>
+      <li><a class="js-scrollTo" href="papilles.html">Accueil</a></li>
+      <li><a class="js-scrollTo" href="#fb">Je partage</a><li>
+    </ul>
+  </div>
+
+  <div id="cover">
+    <div class="cover-content">
+      <h1>BOUTIQUE<h1>
+      <!--<h2>Des produits livrés frais et vivants...</h2>-->
+      <h2>Un oeil sur votre assiette</h2>
+      <a href="#" class="btn" id="achat">Achat express</a>
+    </div>
+  </div>
+
+  <div class="products">
+    <h3 class="blue" id="degustation">À déguster sans modération</r></h3>
+    <div class="product">
+      <img src="images/mouton-seo.JPG">
+      <h3>Du mouton</h3>
+      <p>Élevé en plein air. Mouton bio de 150kg. Livré vivant.</p>
+          <h4>300€</h4>
+      <a href="#" target="_blank" class="btn">Je commande</a>
+    </div>
+
+    <div class="product">
+      <img src="images/zelotes_egregioides.jpg">
+      <h3>Des araignées</h3>
+      <p>Lots de 20. 6mm de long. Origine tropicale. Livrées vivantes. </p>
+      <h4>50€</h4>
+      <a href="#" target="_blank" class="btn">Je commande</a>
+    </div>
+    
+    <div class="product">
+      <img src="images/casu.jpeg">
+      <h3>Du fromage</h3>
+      <p>Casu Marzu. Vers inclus.</p>
+      <h4>14€</h4>
+      <a href="#" class="btn">Je commande</a>
+    </div>
+
+    <div class="product">
+      <img src="images/serpent-corail.gif">
+      <h3>Du serpent</h3>
+      <p>Serpent corail. 1m de long. </p>
+      <h4>250€</h4>
+      <a href="#" class="btn">Je commande</a>
+    </div>
+    
+     <div class="product">
+      <img src="images/aligator.jpg">
+      <h3>Du crocodile</h3>
+      <p>Alligator. 4m de long. 250 kilos. </p>
+      <h4>2500€</h4>
+      <a href="#" class="btn">Je commande</a>
+    </div>
+    
+    <div class="product">
+      <img src="images/Cervelle-Singe.jpg">
+      <h3>La cervelle de singe</h3>
+      <p>Très fine en bouche. Lots de 10.</p>
+      <h4>350€</h4>
+      <a href="#" class="btn">Je commande</a>
+    </div>
+    
+    <div class="product">
+      <img src="images/oeufs-fourmis.jpg">
+      <h3>Les oeufs de fourmis</h3>
+      <p>À déguster sans modération.</p>
+      <h4>20€</h4>
+      <a href="#" class="btn">Je commande</a>
+    </div>
+  </div>
+
+  <div class="products">
+    <h3 class="blue" id="alcool">Les alcools de vie</h3>
+    <div class="product">
+      <img src="images/baby_mice.jpg">
+      <h3>Le vin de bébé souris</h3>
+      <p>Se boit très rapidement. Bouteille de 3L.</p>
+      <h4>130€</h4>
+      <a href="#" class="btn">Je commande</a>
+    </div>
+
+    <div class="product">
+      <img src="images/snakewine.jpg">
+      <h3>Le vin de serpent</h3>
+      <p>Très rare. Bouteille de 2L.</p>
+      <h4>45€</h4>
+      <a href="#" class="btn">Je commande</a>
+    </div>
+
+
+
+    </div>
+  <h3>Palais sensible s'abstenir</h3>
+  
+<footer>
+     <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" class="facebook" id="fb" width="100"></a>
+     <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" class="instagram" width="100"></a>
+     <a href="https://twitter.com/?lang=fr" target="_blank"><img src="images/twitter.png" class="instagram" width="100"></a>
+     </footer>
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.js-scrollTo').on('click', function () { // Au clic sur un élément
+                var page = $(this).attr('href'); // Page cible
+                var speed = 750; // Durée de l'animation (en ms)
+                $('html, body').animate({
+                    scrollTop: $(page).offset().top
+                }, speed); // Go
+                return false;
+            });
+        });
+    </script>
+</body>
+</html> 
